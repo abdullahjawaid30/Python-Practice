@@ -83,6 +83,15 @@ a4=10
 a4+=10
 print(a4)
 
+# Taking User Inpu
+x=input("Enter Your Name:")
+print("Good Morning",x)
+
+x1=input("Enter First Number")
+x2=input("Enter Second Number")
+print(int(x1) + int(x2));
+
+
 
 
 
