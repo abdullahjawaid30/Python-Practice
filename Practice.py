@@ -111,21 +111,37 @@
 # else:
 #     print("Negative Number")
 
-num=int(input("Enter A number :"))
+# num=int(input("Enter A number :"))
 
-if(num < 0):
-    print("Number Is Negative")
-elif(num > 0):
-    if(num <=10):
-        print("Number is between 1-10")
-    elif(num >=11 and num <=20):
-        print("Number is between 11-20")
-    else:
-        print("Number is between 21-100")
-else:
-    print("Number is Zero")
+# if(num < 0):
+#     print("Number Is Negative")
+# elif(num > 0):
+#     if(num <=10):
+#         print("Number is between 1-10")
+#     elif(num >=11 and num <=20):
+#         print("Number is between 11-20")
+#     else:
+#         print("Number is between 21-100")
+# else:
+#     print("Number is Zero")
 
 
+# Loops
+
+name="Jonathan"
+for i in name:
+    print(i ,end=", ")
+    if i=="a":
+        print("This is beyond the Knowledge")
+
+colors=["Red","Green","Blue","Purple"]
+for color in colors:
+    print(color)
+    for i in color:
+        print(i)
+
+for k in range(1,10,4):
+    print(k+1)
 
 
 
