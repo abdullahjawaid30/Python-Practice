@@ -43,13 +43,13 @@ print(nm[-4:-2])
 
 
 # Strings are immutable
-a = "!!!Harry!! !!!!!!!!! Harry"
+a = "!!!Jonatham!! !!!!!!!!! Abdullah"
 print(len(a))
 print(a)
 print(a.upper())
 print(a.lower())
 print(a.rstrip("!"))
-print(a.replace("Harry", "John"))
+print(a.replace("Abdullah", "John"))
 print(a.split(" "))
 blogHeading = "introduction tO jS"
 print(blogHeading.capitalize())
@@ -57,7 +57,7 @@ print(blogHeading.capitalize())
 str1 = "Welcome to the Console!!!"
 print(len(str1))
 print(len(str1.center(50)))
-print(a.count("Harry"))
+print(a.count("Abdullah"))
 
 str1 = "Welcome to the Console !!!"
 print(str1.endswith("!!!"))
