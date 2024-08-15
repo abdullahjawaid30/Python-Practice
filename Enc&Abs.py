@@ -34,9 +34,6 @@ class Employee1:
 
 
 
-
-
-
 e = Employee()
 e.a = 45
 print(e.a)  # prints 45
