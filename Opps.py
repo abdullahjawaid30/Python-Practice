@@ -34,6 +34,10 @@ class Calculator:
     def hello():
         print("Hello There!")
 
+
+class Demo:
+    a=0
+
 calculation = Calculator(4)
 calculation.hello()
 print(f"The Square of {calculation.n} is {calculation.square()}")
@@ -42,8 +46,7 @@ print(f"The Square Root of {calculation.n} is {calculation.squareRoot()}")
 
 
 
-class Demo:
-    a=0
+
     
 Demo1=Demo()
 print(Demo1.a)
